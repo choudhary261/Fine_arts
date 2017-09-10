@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Fine_Arts.Models.Role>
+﻿@model IEnumerable<Fine_Arts.Models.Remarks>
 
 @{
     ViewBag.Title = "Index";
@@ -12,7 +12,7 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Roles)
+            @Html.DisplayNameFor(model => model.Remrks)
         </th>
         <th></th>
     </tr>
@@ -20,7 +20,7 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Roles)
+            @Html.DisplayFor(modelItem => item.Remrks)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |

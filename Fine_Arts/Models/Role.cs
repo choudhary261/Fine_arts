@@ -9,6 +9,6 @@ namespace Fine_Arts.Models
     {
         public int ID { get; set; }
         public String Roles { get; set; }
-        public Staff StaffMembers { get; set; }
+        public Login IdPAss{ get; set; }
     }
 }

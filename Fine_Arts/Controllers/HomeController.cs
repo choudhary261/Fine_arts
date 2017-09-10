@@ -12,10 +12,7 @@ namespace Fine_Arts.Controllers
     {
         public ActionResult Index()
         {
-            Role rl = new Role();
-            rl.ID = 1;
-            rl.Roles = "Admin";
-             return View(rl);
+             return View();
         }
 
         public ActionResult About()

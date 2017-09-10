@@ -10,7 +10,7 @@ namespace Fine_Arts.Models
         public int ID { get; set; }
         public String Name { get; set; }
         public byte age { get; set; }
-        public String Email { get; set; }
+        public Login IDDPAss { get; set; }
         public Event[] Events { get; set; }
         public Painting Painting { get; set; }
 
